@@ -1,0 +1,44 @@
+.cart-container{
+    min-width: 26vw;
+    min-height: 96.5vh;
+}
+
+.cart-heading{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+    justify-content:center;
+    margin-top: 2%;
+    padding-bottom:2%;
+    border-bottom: 2px solid black;
+}
+
+.cart-icon{
+    object-fit: contain;
+    width: 1.8rem;
+}
+
+.cart-title{
+    font-weight: 800;
+    font-size:1.5rem;
+    margin-left: 5%;;
+}
+
+.rupee-icon{
+    object-fit: contain;
+    width: 0.7rem;
+}
+
+.cart-total{
+    display: flex;
+    flex-direction: row;
+    background-color:greenyellow;
+    padding: 3% 0%;
+    justify-content: center;
+}
+
+.cart-item-div {
+    height: 82vh;
+    overflow-y: scroll;
+}

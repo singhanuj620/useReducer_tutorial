@@ -1,0 +1,8 @@
+.product-container{
+    min-width: 70vw;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    overflow-y: scroll;
+}
