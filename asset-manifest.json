@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/useReducer_tutorial/static/css/main.e5f22b15.css",
+    "main.js": "/useReducer_tutorial/static/js/main.f15c316a.js",
+    "static/media/shopping-cart.png": "/useReducer_tutorial/static/media/shopping-cart.84f0cabc82e607c299b3.png",
+    "index.html": "/useReducer_tutorial/index.html",
+    "main.e5f22b15.css.map": "/useReducer_tutorial/static/css/main.e5f22b15.css.map",
+    "main.f15c316a.js.map": "/useReducer_tutorial/static/js/main.f15c316a.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e5f22b15.css",
+    "static/js/main.f15c316a.js"
+  ]
+}
