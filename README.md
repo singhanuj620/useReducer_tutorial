@@ -12,6 +12,7 @@ A inbuilt react hook for mimicing **Redux** concepts in react itself. If you are
 
 Github Repo : [useReducer_tutorial](https://github.com/singhanuj620/useReducer_tutorial)
 Live Demo of the application : [Click Here](https://singhanuj620.github.io/useReducer_tutorial/)
+![app demo](./screenshots/0.png)
 
 ## Let's get started 😈😈👇👇
 
@@ -52,11 +53,11 @@ We have decleare the initial state to have 2 key value pair:
 
 and for the reducer we are importing it from another file _( for better readability )_.
 
-1.png
+![1](./screenshots/1.png)
 
 And for the child component to access the same state, you need to pass these two i.e state and dispatch as a prop to those child component which you want to interact with same state.
 
-2.png
+![2](./screenshots/2.png)
 
 > **Note** : If you are not comfortable with this code that what's state, action, action.payload, type etc, you need to brush up reduc
 > concepts. More about that here : [Learn Redux with
@@ -76,7 +77,7 @@ const productReducer = (state, action) => {};
 
 We are using a dummy product API for fetching some sample products data. So from the product component, we will store the all product details to the state, so that we have access to the product list.
 
-3.png
+![3](./screenshots/3.png)
 
 Using the dispatch, I'm updating all the product list into state. And on the basis of data present in cart [] of state, Product component is dynamically chaning the button to 'add to cart' or 'remove from cart'.
 
@@ -91,7 +92,7 @@ const { cart } = state;
 
 we will access the state directly as shown. And if any state updation is required as changing the cart item quantity, we will use dispatch with a specific action type and payload data which will instruct the reducer to change the state as per requirement.
 
-4.png
+![4](./screenshots/4.png)
 
 ### That's It, You have now understood what is useReducer. 😎😎
 
